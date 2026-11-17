@@ -1,0 +1,24 @@
+
+Walking distance - 20 splits (improvement = reduction of the first method compared with the second; + = better)
+comparison                   |    second |     first |   improvement (mean +- sd) | p (paired t) |  p (Holm)
+rl_v2 vs frequency           |     911.9 |     865.3 |      +5.0% +-  2.0        |       <0.001 |    <0.001
+rl_v2 vs cluster             |     916.0 |     865.3 |      +5.5% +-  2.1        |       <0.001 |    <0.001
+rl_v2 vs rl_v1               |     924.1 |     865.3 |      +6.3% +-  2.0        |       <0.001 |    <0.001
+cluster vs frequency         |     911.9 |     916.0 |      -0.5% +-  1.4        |        0.146 |     0.146
+frequency vs random          |     958.1 |     911.9 |      +4.8% +-  1.7        |       <0.001 |    <0.001
+
+Makespan - 20 splits (improvement = reduction of the first method compared with the second; + = better)
+comparison                   |    second |     first |   improvement (mean +- sd) | p (paired t) |  p (Holm)
+rl_v2 vs frequency           |    1497.2 |    1439.7 |      +3.8% +-  1.8        |       <0.001 |    <0.001
+rl_v2 vs cluster             |    1503.0 |    1439.7 |      +4.2% +-  1.7        |       <0.001 |    <0.001
+rl_v2 vs rl_v1               |    1497.3 |    1439.7 |      +3.9% +-  1.5        |       <0.001 |    <0.001
+cluster vs frequency         |    1497.2 |    1503.0 |      -0.4% +-  1.5        |        0.237 |     0.237
+frequency vs random          |    1541.7 |    1497.2 |      +2.8% +-  1.5        |       <0.001 |    <0.001
+
+Avg order time - 20 splits (improvement = reduction of the first method compared with the second; + = better)
+comparison                   |    second |     first |   improvement (mean +- sd) | p (paired t) |  p (Holm)
+rl_v2 vs frequency           |     799.8 |     768.3 |      +3.9% +-  1.8        |       <0.001 |    <0.001
+rl_v2 vs cluster             |     800.2 |     768.3 |      +4.0% +-  1.4        |       <0.001 |    <0.001
+rl_v2 vs rl_v1               |     797.9 |     768.3 |      +3.7% +-  1.5        |       <0.001 |    <0.001
+cluster vs frequency         |     799.8 |     800.2 |      -0.1% +-  1.6        |        0.868 |     0.868
+frequency vs random          |     820.7 |     799.8 |      +2.5% +-  1.6        |       <0.001 |    <0.001
